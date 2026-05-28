@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111827;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  background: #111827;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  background: #111827;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
